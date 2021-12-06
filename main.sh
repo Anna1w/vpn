@@ -1,9 +1,3 @@
-function bail_out {
-	echo -e "\033[31;7mThis script supports only Ubuntu 16.04. Terminating.\e[0m"
-	exit 1
-}
-
-
 
 export SHARED_KEY=$(uuidgen)
 export IP=$(curl -s api.ipify.org)
